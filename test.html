@@ -21,11 +21,19 @@
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/b1ffeb7914.js" crossorigin="anonymous"></script>
   <style>
-    h1 {
-      font-size: 30px;
+    @media print{
+      h1 {
+        color: red;
+      }
     }
 
-    @media (min-width: 900px) and (max-width: 1000px; ) {
+    @media (min-width: 1050px){
+      h1{
+        background: cyan;
+      }
+    }
+
+    @media (min-width: 600px) and (max-width: 1000px) {
       h1 {
         font-size: 60px;
       }

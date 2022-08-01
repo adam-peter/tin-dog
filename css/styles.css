@@ -87,6 +87,16 @@ p{
 .iphone-col{
   position: relative;
 }
+@media (max-width: 1000px){
+  .title-row{
+    text-align: center;
+  }
+
+  .iphone-img{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
 
 .feature-box{
   text-align: center;
@@ -112,6 +122,7 @@ p{
   margin: 20px 20px 50px;
 }
 
+
 .carousel-item{
   padding: 7% 15%;
 }
@@ -120,4 +131,26 @@ p{
 .pricing-col{
   text-align: center;
   padding: 3% 2%;
+}
+
+#cta{
+  background: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.up-arrow{
+  width: 100px;
 }
